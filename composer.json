@@ -1,0 +1,23 @@
+{
+    "name": "eosvolt/interview_test",
+    "type": "project",
+    "description": "Interview Test",
+    "require": {
+        "php": "^8.2",
+        "moneyphp/money": "^3.3"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eosvolt\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

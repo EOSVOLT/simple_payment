@@ -1,0 +1,14 @@
+services:
+    eosvolt_interview:
+        container_name: eosvolt_interview
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        environment:
+            ENABLE_XDEBUG: 1
+            PHP_IDE_CONFIG: serverName=eosvolt_interview
+            WEBROOT: /var/www/html/public
+        networks:
+            - default
+        volumes:
+            - ./:/var/www/html:delegated
