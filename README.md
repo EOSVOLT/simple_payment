@@ -9,11 +9,16 @@ Then give access to that repository for developer pointed in email, so we can re
 - New created repository should have initial push as cloned test repository, and following commits as your progress on assigned task.
 - If you need comment anything in code use English for that.
 - Please use gitflow to create proper PR in GitHub which we will be able to review and add comments.
-- Edit first header in this README file by adding your name and email used in job application.
+- _Edit first header_ in this **README** file by adding your name and email used in job application.
 
 # Preparation
 
 Project has its own docker image to assure all compatibility, tests must be run and work in docker.
+Your code changes must be implemented in a separate branch created from master.
+
+# Submitting Results
+
+After completing your changes, commit and push them to your designated branch. Then create a Pull Request and assign it to the developer who has been granted access to your repository.
 
 # Expectations
 
